@@ -42,8 +42,8 @@
     // Simplificar esta función
     const isFirstStepWorking = true;
     const isSecondStepWorking = true;
-    const isThirdStepWorking = true;
-    const isFourthStepWorking = true;
+    const isThirdStepWorking = false;
+    const isFourthStepWorking = false;
 
     function workingSteps(): string {
         if (!isFirstStepWorking) return 'First step broken.';
